@@ -1,8 +1,8 @@
-import bs4
+import bs4  
 import requests
-from bs4 import BeautifulSoup
-import time
-import smtplib, ssl
+from bs4 import BeautifulSoup #web scrapping lib
+import time #time lib
+import smtplib, ssl #mail transfer lib
 smtp_server = "smtp.gmail.com"
 sender_email = "sairohith.guntupally1@gmail.com"
 receiver_email = "sairohith.guntupally1@gmail.com"
